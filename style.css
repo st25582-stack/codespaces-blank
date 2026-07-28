@@ -16,7 +16,7 @@ header h1{
 }
 
 header h1:hover{
-    color:black;
+    color:rgb(241, 5, 20);
 }
 
 nav{
@@ -93,14 +93,6 @@ nav{
 
 .btn:hover{
     background:#8b0000;
-}
-
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:30px;
 }
 
 @media(max-width:900px){
