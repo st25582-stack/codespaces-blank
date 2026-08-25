@@ -4,15 +4,27 @@
     box-sizing:border-box;
     font-family:Arial, sans-serif;
 }
-
-body{
-    background-color:#f5f5f5;
+/* Use the CSS background-image property */
+.background-image {
+    background-image:  url('Afghan_food.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height:1000px;
 }
-
-header h1{
+.background-h1 {
+    color: white;
     text-align:center;
-    background-color:#f7eaea;
-    padding:20px;
+    padding: 500px;
+    display: flex;
+
+}
+header {
+    display: flex;
+}
+header h1 {
+    text-align: center;
+    background-color:#fbf8f8;
 }
 
 header h1:hover{
@@ -28,7 +40,7 @@ nav{
     align-items:center;
 }
 
-.logo img{
+.logo{
     width:80px;
 }
 
@@ -39,7 +51,7 @@ nav{
 }
 
 .nav-links a{
-    color:white;
+    color:rgb(243, 212, 212);
     text-decoration:none;
     transition:0.3s;
 }
