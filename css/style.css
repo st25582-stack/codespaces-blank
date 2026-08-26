@@ -16,8 +16,11 @@
     color: white;
     text-align:center;
     padding: 500px;
-    display: flex;
-
+}
+.background-h2 {
+    color: rgb(245, 5, 5);
+    text-align: center;
+    padding: 500px;
 }
 header {
     display: flex;
